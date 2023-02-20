@@ -1,0 +1,1 @@
+# pixi-howler-sprite-loader
