@@ -1,0 +1,8 @@
+node_modules
+dist
+types
+.vscode
+.DS_Store
+*-lock.*
+*.lock
+*.log

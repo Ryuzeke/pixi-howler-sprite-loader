@@ -1,0 +1,54 @@
+{
+  "name": "pixi-howler-sprite-loader",
+  "version": "1.0.0",
+  "umd:name": "pixi-howler-sprite-loader",
+  "repository": "https://github.com/Ryuzeke/pixi-howler-sprite-loader",
+  "description": "Pixi Howler sprite loader and parser",
+  "unpkg": "dist/index.min.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Christos Papoukas",
+    "email": "ryuzekejs@gmail.com"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint . --fix",
+    "types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "13.1.3",
+    "@types/howler": "^2.2.7",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "rollup": "2.66.1",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.27.1",
+    "typescript": "^4.8.2"
+  },
+  "peerDependencies": {
+    "howler": "^2.2.3",
+    "pixi.js": "^7.1.2"
+  }
+}

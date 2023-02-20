@@ -1,0 +1,9 @@
+node_modules
+dist
+docs
+types
+@types
+.eslintrc.js
+package.json
+package-lock.json
+rollup.config.js
