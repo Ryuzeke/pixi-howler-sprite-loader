@@ -1,6 +1,6 @@
 {
   "name": "pixi-howler-sprite-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "umd:name": "pixi-howler-sprite-loader",
   "repository": "https://github.com/Ryuzeke/pixi-howler-sprite-loader",
   "description": "Pixi Howler sprite loader and parser",
